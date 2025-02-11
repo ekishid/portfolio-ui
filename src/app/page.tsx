@@ -7,9 +7,10 @@ export default function Home() {
     <div
       className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 sm:items-start">
-        <div className="h-full">
-          <h1 className="font-extrabold text-4xl">Eduardo Villarreal Caballero</h1>
+        <div className="h-full w-full">
+          <h1 className="font-extrabold text-4xl">Eduardo Villarreal</h1>
           <h3 className="font-light text-lg uppercase font-mono">Welcome to my Portfolio</h3>
+          <a href="#" className="text-xs flex justify-end">LinkedIn Profile</a>
         </div>
         <div>
           <h1 className="font-extrabold text-4xl my-4">Technologies</h1>
